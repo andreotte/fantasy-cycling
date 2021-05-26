@@ -145,11 +145,16 @@ def getRidersFromLeague(): #todo read this from a file?
     ,"yves lampaert"
     ,"patrick konrad"
     ,"pavel sivakov"
-    ,"luka mezgec"]
+    ,"luka mezgec"
+    ,"jake stewart" 
+    ,"bauke mollema"
+    ,"emanuel buchmann"
+    ,"david dekker"]
 
     return riders
 
 def main(): 
+    #
     leagueScores = buildLeagueScores(getRidersFromLeague(),getRidersScores())
     writeRiderScores(leagueScores)
     
